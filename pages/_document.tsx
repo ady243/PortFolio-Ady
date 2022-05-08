@@ -11,7 +11,10 @@ export default function Document() {
           rel="stylesheet"
         ></link>
       </Head>
-      <body className="bg-gradient-to-r from-green to-blue-500">
+      <body
+        className="bg-gradient-to-r to-orange-500 from-red-700"
+        style={{ animation: "animate-backroung 1s infinite ease-in-out" }}
+      >
         <Main />
         <NextScript />
       </body>

@@ -12,7 +12,10 @@ const NavItem: FunctionComponent<{
   return activeItem !== name ? (
     <Link href={route}>
       <a>
-        <span onClick={() => setActiveItem(name)} className="hover:text-green">
+        <span
+          onClick={() => setActiveItem(name)}
+          className="hover:text-yellow-500"
+        >
           {name}
         </span>
       </a>
@@ -31,7 +34,7 @@ function Navbar() {
   }, []);
   return (
     <div className="flex justify-between px-5 py-3 my-3">
-      <span className="text-xl font-bold border-b-4 text-green border-green md:text-2xl">
+      <span className="text-xl font-bold text-red-500 border-b-4 border-yellow-500 md:text-2xl">
         {activeItem}
       </span>
       <div className="space-x-5 text-red txt-lg">

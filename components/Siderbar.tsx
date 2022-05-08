@@ -10,28 +10,28 @@ const Sliderbar = () => {
         alt="user avatar"
         className="w-32 mx-auto rounded-full"
       />
-      <h3 className="my-4 text-3xl font-medium tracking-wider space-x-2 font-classic">
-        <span className=" text-green">Ady </span>
+      <h3 className="my-4 space-x-2 text-3xl font-medium tracking-wider font-classic">
+        <span className="text-red-500">Ady </span>
         Masivi<br></br>
-        <span className="text-blue-400">Masanzambi</span>
+        <span>Masanzambi</span>
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full">Développeur web</p>
 
       <a
-        className="px-2 py-1 my-3 bg-gray-200 rounded-full flex items-center justify-center"
+        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full"
         href=""
         download="name"
       >
         <GiTie className="w-6 h-6" />
-        Dowmload Resume
+        Télécharger le Resumé
       </a>
       {/* //social media icon */}
 
-      <div className="flex justify-around my-5 text-green-500 w-9/12 md:w-full mx-auto">
-        <a href="">
+      <div className="flex justify-around w-9/12 mx-auto my-5 text-yellow-500 md:w-full">
+        <a href="#">
           <AiFillInstagram className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/ady-masivi-8547b41a7/">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
         <a href="https://github.com/ady243">
@@ -53,13 +53,12 @@ const Sliderbar = () => {
       </div>
       {/* //email buttom*/}
       <button
-        className="bg-gradient-to-r from-green to-blue w-8/12 rounded-full py-2 px-2 to-blue-400 my-2
-        focus:outline-none"
+        className="w-8/12 px-2 py-2 my-2 rounded-full bg-gradient-to-r from-red-600 to-blue to-yellow-400 focus:outline-none"
         onClick={() => window.open("mailto:masiviady7@gmail.com")}
       >
         Email
       </button>
-      <button className="bg-gradient-to-r from-green to-blue w-8/12 rounded-full py-2 px-2 to-blue-400 my-2">
+      <button className="w-8/12 px-2 py-2 my-2 rounded-full bg-gradient-to-r from-red-600 to-blue to-yellow-400">
         Sombre mode
       </button>
     </div>

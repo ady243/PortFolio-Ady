@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Siderbar from "../components/Siderbar";
 import "../styles/globals.css";
+import "../styles/anomColor.css";
 
 function MyApp({ Component, pageProps }) {
   return (
